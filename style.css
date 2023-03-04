@@ -1,6 +1,8 @@
 
 body{
-background-color: black;
+    background-color: black;
+    height:100vh ;
+    height: calc(var(--vh, 1vh)*100)
 }
 
 /* Home section  which has the app name and nav bar. The styling is applied by id */
